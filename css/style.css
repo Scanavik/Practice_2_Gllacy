@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  background-color: #6b9c93;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  min-width: 1200px;
+}
+
+.wrapper-container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*Шапка*/
+.header-page {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  padding-top: 15px;
+}
+
+.nav-list {
+  margin: 0;
+  padding:0;
+  width: 600px;
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+}
+
+.nav-item{
+  margin-right: 30px;
+}
+
+.nav-item:hover{
+  margin-right: 30px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.1s ease;
+}
+
+.nav-link:hover {
+  color: #d3e3e3;
+  border-bottom: 1px solid rgba(211, 227, 227, 0.7);
+  transition: all 0.1s ease;
+
+}
+
+.button-list {
+  margin: 0;
+  padding:0;
+  width: 400px;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.button-item {
+  margin-left: 10px;
+}
+
+.btn-header {
+  color: #ffffff;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 30px 5px 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
